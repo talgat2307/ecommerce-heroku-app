@@ -25,10 +25,10 @@
   },
   "scripts": {
     "start-client": "react-scripts start",
-    "build": "react-scripts build && (cd ../index.js && npm install)",
+    "build": "react-scripts build && (cd .. && npm install)",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "cd ../index.js && npm start"
+    "start": "cd .. && npm start"
   },
   "eslintConfig": {
     "extends": [
